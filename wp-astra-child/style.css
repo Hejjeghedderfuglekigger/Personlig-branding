@@ -1,0 +1,82 @@
+/**
+Theme Name: JONAS Astra Child
+Author: Jonas Dalmose Jensen
+Author URL: Fuglekigger.dk
+Description: Child Theme for Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+
+
+
+
+
+/* ---------- sidebar-fix ---------- */
+
+#nav {font-size: 40px;
+}
+
+#menu-main-menu {padding-top: 90px;}
+
+#menu-main-menu li {padding-top: 10px;
+  list-style-type: none }
+
+  
+
+
+
+
+/* ---------- Typed.js fix Linieskift ---------- */
+
+
+
+.typed {
+  font-size: 36px;
+  
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
